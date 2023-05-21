@@ -1,0 +1,46 @@
+
+@media (min-width: 1250px) {
+    #TK_title {
+        font-size: 200px;
+        color: aqua;
+        font-family: fantasy;
+    }
+}
+
+@media (max-width: 1249px) {
+    #TK_title {
+        font-size: 150px;
+        color: aqua;
+        font-family: fantasy;
+    }
+}
+
+@media (max-width: 1000px) {
+    #TK_title {
+        font-size: 100px;
+        color: aqua;
+        font-family: fantasy;
+    }
+}
+
+@media (max-width: 700px) {
+    #TK_title {
+        font-size: 50px;
+        color: aqua;
+        font-family: fantasy;
+    }
+}
+
+#TK_Button a {
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+    color: olive;
+    text-decoration: none;
+}
+
+#TK_Button a:hover {
+    background-color: aqua;
+    border: 2px solid aqua;
+    color: black;
+    text-decoration: none;
+}
