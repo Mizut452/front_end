@@ -5,6 +5,14 @@
         color: aqua;
         font-family: fantasy;
     }
+
+    #TK_subtitle {
+        font-size: 50px;
+    }
+
+    #TK_Button {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 1249px) {
@@ -12,6 +20,14 @@
         font-size: 150px;
         color: aqua;
         font-family: fantasy;
+    }
+
+    #TK_subtitle {
+        font-size: 30px;
+    }
+
+    #TK_Button {
+        font-size: 25px;
     }
 }
 
@@ -21,13 +37,21 @@
         color: aqua;
         font-family: fantasy;
     }
+
+    #TK_Button {
+        font-size: 20px;
+    }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 550px) {
     #TK_title {
         font-size: 50px;
         color: aqua;
         font-family: fantasy;
+    }
+
+    #TK_subtitle {
+        font-size: 15px;
     }
 }
 
