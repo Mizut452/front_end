@@ -68,3 +68,16 @@
     color: black;
     text-decoration: none;
 }
+
+#TK_title {
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+#TK_subtitle {
+    margin-left: 500px;
+}
+
+#TK_Button {
+    margin-left: 720px;
+}
