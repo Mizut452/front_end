@@ -31,6 +31,8 @@ a {
 }
 
 a:hover {
+    padding: 0.5em;
     color: black;
-    background-color: mediumslateblue;
+    font-weight: bold;
+    border: solid 2px black;
 }
