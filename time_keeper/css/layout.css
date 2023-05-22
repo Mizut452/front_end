@@ -1,0 +1,36 @@
+#loginMenu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/**/
+#loginMenu li {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10%;
+    padding-right: 2%;
+    margin-top: -5%;
+}
+
+/*横並びにする。間隔はページいっぱい均等に*/
+#menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*リストの横の点を消す*/
+#menu li {
+    width: 15%;
+    list-style: none;
+}
+
+/*リンクの下線を消す*/
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: black;
+    background-color: mediumslateblue;
+}
