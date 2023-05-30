@@ -1,3 +1,19 @@
-p[class*="red"] {
+p[class~="red"] {
     color: red;
+}
+
+p[class*="red"] {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p[lang|="en"] {
+    color: blue;
+}
+
+p[class^="history"] {
+    color: brown;
+}
+
+p[class$="page"] {
+    color:coral;
 }

@@ -7,16 +7,63 @@
     </head>
 
     <body>
-        <p class="red mond">
-            クラスはredとmondを持っています。
+        <h2>・p[class~="red"]とp[class*="red"]</h2>
+        <p class="mond red">
+            p[class~="red"]とp[class*="red"]　クラスはredとmondを持っています。
         </p>
 
         <p class="red-text">
-            クラスはred-textだけです。
+            p[class~="red"]とp[class*="red"]　クラスはred-textだけです。
         </p>
 
         <p class="bred">
-            クラスはbredでござる。
+            p[class~="red"]とp[class*="red"]　クラスはbredでござる。
+        </p>
+
+        <h2>・this is p[lang|="en"]</h2>
+
+        <p lang="english">
+            this is p[lang|="en"] practice. lang="english"
+        </p>
+
+        <p lang="en">
+            this is p[lang|="en"] practice. lang="en"
+        </p>
+
+        <p lang="en-text">
+            this is p[lang|="en"] practice. lang="en-text"
+        </p>
+
+        <h2>・h1 [class^="history"] </h2>
+
+        <p class="history">
+            h1 [class^="history"] class="history"
+        </p>
+
+        <p class="history-broken">
+            h1 [class^="history"] class="history-broken"
+        </p>
+
+        <p class="historydayo">
+            h1 [class^="history"] class="historydayo"
+        </p>
+
+        <p class="not-history nonhistory">
+            h1 [class^="history"] class="not-history"
+        </p>
+
+        <h2>・p[class$="page"]</h2>
+
+        <p class="page">
+            p[class$="page"] class="page"
+        </p>
+
+        <p class="page-up">
+            p[class$="page"] class="page-up"
+        </p>
+
+        <p class="no-page">
+            p[class$="page"] class="no-page"
         </p>
     </body>
 </html>
