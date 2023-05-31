@@ -22,3 +22,15 @@
 .ex6:first-letter {
     color:violet;
 }
+
+.ex7 ul li:nth-child(odd) {
+    color:teal;
+}
+
+.ex7 ul li:nth-child(even) {
+    background-color: khaki;
+}
+
+.ex8 ul li:nth-child(3n-1) {
+    color: rebeccapurple;
+}
