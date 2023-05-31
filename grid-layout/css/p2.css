@@ -1,3 +1,15 @@
 .ex1 * {
     color: blue;
 }
+
+.ex2 > p {
+    color: blueviolet;
+}
+
+.ex3 + p {
+    color:brown;
+}
+
+.ex4 ~ p {
+    color: aqua;
+}

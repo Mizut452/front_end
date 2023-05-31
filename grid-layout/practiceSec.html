@@ -6,9 +6,47 @@
     </head>
 
     <body>
+        <h1>・.ex1 *</h1>
         <p>.ex1 * noclass</p>
-        <p class="ex1">.ex1 * class="ex1"</p>
-        <p class="ex1">.ex1 * class="ex1"</p>
+        <div class="ex1">
+            <p>.ex1 * class="ex1"</p>
+            <p>.ex1 * class="ex1"</p>
+        </div>
         <p class="exa">.ex1 * class="exa"</p>
+
+        <h1>・.ex2 > p</h1>
+        <p>.ex2 > p noclass</p>
+        <div class="ex2">
+            <p>.ex2 > p 子要素</p>
+            <div>
+                <p>.ex2 > p 孫要素</p>
+            </div>
+            <p>.ex2 > p 子要素</p>
+        </div>
+
+        <h1>・.ex3 + p</h1>
+        <div class="ex3">
+            <p>.ex3 + p 最初の要素</p>
+            <div>
+                <p>.ex3 + p div ex3の孫要素</p>
+            </div>
+        </div>
+        <p>.ex3 + p 外側1番目の要素</p>
+        <p>.ex3 + p 外側2番目の要素</p>
+
+        <h1>・ex4 ~ p</h1>
+        <div class="ex4">
+            <p>.ex4 最初要素</p>
+            <div>
+                <p>.ex4 孫要素</p>
+            </div>
+        </div>
+        <p>.ex4 ~ p 外側1番目の要素</p>
+        <p>.ex4 ~ p 外側2番目の要素</p>
+        <div class="ex4">
+            <p>.ex4 2番目の要素</p>
+        </div>
+        <p>.ex4 ~ p 外側3番目の要素</p>
+
     </body>
 </html>
