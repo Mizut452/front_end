@@ -13,3 +13,8 @@
 .ex4 ~ p {
     color: aqua;
 }
+
+.ex5 li:first-child {
+    list-style: none;
+    color: salmon;
+}
