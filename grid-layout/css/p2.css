@@ -18,3 +18,7 @@
     list-style: none;
     color: salmon;
 }
+
+.ex6:first-letter {
+    color:violet;
+}
