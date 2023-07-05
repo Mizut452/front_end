@@ -1,0 +1,41 @@
+#contents-layout {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 1fr 100px;
+}
+
+#contents-menu {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#contetns-main {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#contetns-out {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#contetns-footer {
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+#titleLogo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+#navi {
+    margin-left: 1700px;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}

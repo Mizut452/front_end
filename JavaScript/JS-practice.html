@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head id="0">
         <meta charset="UTF-8">
         <title>JSの練習</title>
     </head>
 
-    <body>
-        
+    <body id="1">
+        <div>
+            <p>何年たっても妄想が</p>
+            草
+        </div>
+
+        <div>
+            <p id="mephi">メフィスト</p>
+            <p>ぼくもずっと笑う夢を見ていたい</p>
+            <span>感覚が落とした僕は泣き地蔵</span>
+        </div>
+
+        <div>
+            <p>花占う恋歌</p>
+        </div>
+
+        <form action="">
+            たぬき
+        </form>
+
+        <form action="">
+            きつね
+        </form>
     </body>
 </html>
+
+
+<script>
+    document.body.firstElementChild.innerHTML = "あなたに会いたい";
+    document.body.children[0] = "銀の龍の背に乗って";
+    console.log(document);
+    console.log(document.body.children[1].firstElementChild);
+    console.log(document.children[0]);
+    console.log(document.children[0].children[1]);
+    console.log(document.children[0].childNodes[1]);
+    console.log(document.children[0].parentElement);
+    console.log(document.children[0].parentNode);
+    console.log(document.children[0].children[1].parentElement);
+    console.log(document.children[0].children[1].firstChild);
+    console.log(document.children[0].children[1].firstChild[1]);
+    console.log(document.children[0].children[1].firstElementChild);
+    console.log(document.children[0].children[1].lastChild);
+    console.log(document.children[0].children[1].lastElementChild);
+    console.log(document.parentElement);
+    console.log(document.body);
+    console.log(document.forms);
+    console.log(document.forms[1]);
+</script>

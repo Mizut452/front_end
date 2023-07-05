@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM練習</title>
+    </head>
+
+    <body>
+        <section id="parentSection">
+            <span class="target-cols">ただ君に晴れ</span>
+
+            <div class="childSection">
+                <input name="grandChild1" value="春泥棒"></input>
+                <input name="grandChild2" value="思想犯"></input>
+                <input name="grandChild3" value="藍二乗"></input>
+            </div>
+
+            <p>知りうる</p>
+            <p>悲しみが消えぬこの夢の中で</p>
+        </section>
+
+        <p class="target-cols">左右盲</p>
+        <p>融解sink</p>
+        
+        <script>
+            console.log(document.getElementById("parentSection"));
+            console.log(document.getElementsByClassName("target-cols"));
+            console.log(document.getElementsByName("grandChild1"));
+            console.log(document.getElementsByTagName("p"));
+            console.log(document.querySelectorAll("div ~ p"));
+        </script>
+    </body>
+</html>
