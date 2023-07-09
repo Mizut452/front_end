@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
 #contents-layout {
     display: grid;
     grid-template-rows: 100px 1fr 100px;
@@ -38,4 +40,23 @@
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 2px solid;
+}
+
+#menu li {
+    position: relative;
+}
+
+#menu li a {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Noto Serif JP', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover {
+    font-style: normal;
 }
