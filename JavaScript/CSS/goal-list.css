@@ -14,3 +14,19 @@
   background-color: gold;
   width: fit-content;
 }
+
+.toggle {
+  display: nsone;
+}
+
+.Label::after {
+	content: "\025bc";
+}
+
+.mochi {
+  color: pink;
+}
+
+.context {
+  display: none;
+}

@@ -12,7 +12,9 @@
     //初期化
     const init = () => {
         //ブロック表示にする
+        $tab.style.color = 'pink';
         $content[0].style.display = 'block';
+        
     };
     init();
 
