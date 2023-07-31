@@ -27,8 +27,4 @@
     $checkbox[index].addEventListener('click', (e) => handleClick(e));
     index++;
   }
-
-
-
-
 })();

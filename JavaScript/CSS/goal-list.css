@@ -5,12 +5,12 @@
     font-size: 30px;
 }
 
-.goal-list:nth-of-type(odd) {
-  background-color: gray;
+.goal-list tr:nth-of-type(odd) {
+  background-color: white;
   width: fit-content;
 }
 
-.goal-list:nth-of-type(even) {
+.goal-list tr:nth-child(even) .table-content {
   background-color: gold;
   width: fit-content;
 }
@@ -23,10 +23,10 @@
 	content: "\025bc";
 }
 
-.mochi {
-  color: pink;
+.context {
+  display: none;
 }
 
-.context {
+input[type="checkbox"] {
   display: none;
 }
