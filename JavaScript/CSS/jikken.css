@@ -1,3 +1,7 @@
 div .hero {
     color: pink;
 }
+
+main tr:nth-of-type(odd) {
+    color: green;
+}
