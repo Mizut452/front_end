@@ -7,7 +7,10 @@
     </head>
 
     <body>
-        <div>
+        <button class="openButton" data-button="0">
+            開く
+        </button>
+        <div class="mark">
         <p class="hero">ハロー</p>
         <div class="hero">コマンド</div>
         <a href="" class="hero">メメントモリ</a>
@@ -17,6 +20,10 @@
         </div>
 
         <main>
+            <button class="openButton" data-button="1">
+                開く
+            </button>
+            <div id="mark">
             <table border="1">
                 <tr>
                     <th>名前</th>
@@ -45,6 +52,50 @@
                     </td>
                 </tr>
             </table>
+
+            <table class="custom-table">
+                <tr>
+                    <th>ヘッダ1</th>
+                    <th>ヘッダ2</th>
+                </tr>
+                <tr>
+                    <td>データ1</td>
+                    <td>データ2</td>
+                </tr>
+                <tr>
+                    <td>データ3</td>
+                    <td>データ4</td>
+                </tr>
+                <tr>
+                    <td>データ5</td>
+                    <td>データ6</td>
+                </tr>
+                <!-- 追加の行をここに記述 -->
+            </table>
+
+            <table class="colorTest">
+                <tr class="color">
+                    <th>名前</th>
+                    <th>ハゲタコ</th>
+                </tr>
+
+                <tr class="color">
+                    <td>メイン</td>
+                    <td>サブ</td>
+                </tr>
+
+                <tr  class="color">
+                    <td>たぬき</td>
+                    <td>きつね</td>
+                </tr>
+            </table>
+
+            <div id="container">
+                たぬきいろ
+                <button>はげ</button>
+            </div>
+        </div>
         </main>
+        <script src="JS/Jikken.js"></script>
     </body>
 </html>

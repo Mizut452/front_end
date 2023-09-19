@@ -5,3 +5,49 @@ div .hero {
 main tr:nth-of-type(odd) {
     color: green;
 }
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* 偶数行の背景色をピンクに設定 */
+.custom-table tr:nth-child(even) {
+    background-color: pink;
+}
+
+/* 奇数行の背景色をグレーに設定 */
+.custom-table tr:nth-child(odd) {
+    background-color: grey;
+}
+
+/* 偶数行のボーダーをピンクに設定 */
+.custom-table tr:nth-child(even) th,
+.custom-table tr:nth-child(even) td {
+    border-color: pink;
+}
+
+/* 奇数行のボーダーをグレーに設定 */
+.custom-table tr:nth-child(odd) th,
+.custom-table tr:nth-child(odd) td {
+    border-color: grey;
+}
+
+.colorTest .color:nth-of-type(odd) {
+    background-color: gray;
+    border-color: gray;
+}
+
+.colorTest .color:nth-of-type(even) {
+    background-color: pink;
+    border-color: pink;
+}
+
+.colorTest {
+    border-collapse: collapse;
+}
