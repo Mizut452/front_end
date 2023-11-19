@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    
+    gap: 5px 20px;
+    list-style: none;
+}
+
+.spacer {
+    width: 100%;
+  }
