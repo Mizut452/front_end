@@ -1,22 +1,33 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODOの作成</title>
-    <link rel="stylesheet" href="css/todo.css">
+    <title>TODOの一覧</title>
 </head>
 <body>
-    <form action="" class="todo">
-        <label for="">
-        <input type="text" placeholder="やるべきこと">
-        </label>
-        
-        <label for="">
-            <input type="number" placeholder="重要度">
-        </label>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>TODO</th>
+                <th>重要度</th>
+                <th>登録日時</th>
+            </tr>
+        </thead>
 
-        <input id="btn" type="button" value="送信">
-    </form>
+        <tbody>
+            <tr>
+                <th>コンソメ買う</th>
+                <th>3</th>
+                <th>2020/3/2</th>
+            </tr>
+
+            <tr>
+                <th>たぬきちに会う</th>
+                <th>5</th>
+                <th>2023/2/3</th>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
